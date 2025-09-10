@@ -29,10 +29,10 @@ for a in range(5):
                 TotalComparison += 1
         if (i + 1) % 100 == 0:
             tTime = time.perf_counter() - sTime
-            print(f"Finished ({a}/5) {i + 1}/184756 Time: {tTime:.2}")
+            print(f"Finished ({a}/5) {i + 1}/184756 Time: {tTime}")
 
 tTime = time.perf_counter() - sTime
-print(f"Finished (5/5) 184756/184756 Time: {tTime:.2}")
+print(f"Finished (5/5) 184756/184756 Time: {tTime}")
 
 TotalScore = scoreP + scoreT
 TotalComparison += TotalScore
