@@ -1,0 +1,91 @@
+Score of Pseudorandom Generator: 0
+Score of Truly Random Generator: 0
+Total Score: 0
+Total Comparison: 0
+Elapsed Time: 1.3999997463542968e-06
+Score of Pseudorandom Generator: 0
+Score of Truly Random Generator: 0
+Total Score: 0
+Total Comparison: 0
+Elapsed Time: 1.2999998943996616e-06
+Score of Pseudorandom Generator: 4
+Score of Truly Random Generator: 8
+Total Score: 12
+Total Comparison: 12
+Elapsed Time: 1.100000190490391e-06
+Process 0 Elapsed Time: 4
+Process 1 Elapsed Time: 4
+Process 2 Elapsed Time: 4
+Process 3 Elapsed Time: 4
+Score of Pseudorandom Generator: 492
+Score of Truly Random Generator: 492
+Total Score: 984
+Total Comparison: 492
+Elapsed Time: 1.1618521000000328
+Process 0 Elapsed Time: 123
+Process 1 Elapsed Time: 123
+Process 2 Elapsed Time: 123
+Process 3 Elapsed Time: 123
+Score of Pseudorandom Generator: 0
+Score of Truly Random Generator: 0
+Total Score: 0
+Total Comparison: 0
+Elapsed Time: 1363.3581183999995
+Process 0 Elapsed Time: 0
+Process 1 Elapsed Time: 0
+Process 2 Elapsed Time: 0
+Process 3 Elapsed Time: 0
+Score of Pseudorandom Generator: 0
+Score of Truly Random Generator: 0
+Total Score: 0
+Total Comparison: 0
+Elapsed Time: 1363.3581183999995
+Process 0 Elapsed Time: 0
+Process 1 Elapsed Time: 0
+Process 2 Elapsed Time: 0
+Process 3 Elapsed Time: 0
+Score of Pseudorandom Generator: 0
+Score of Truly Random Generator: 0
+Total Score: 0
+Total Comparison: 0
+Elapsed Time: 1363.3581183999995
+Process 0 Elapsed Time: 0
+Process 1 Elapsed Time: 0
+Process 2 Elapsed Time: 0
+Process 3 Elapsed Time: 0
+Score of Pseudorandom Generator: 0
+Score of Truly Random Generator: 0
+Total Score: 0
+Total Comparison: 0
+Elapsed Time: 1363.3581183999995
+Process 0 Elapsed Time: 0
+Process 1 Elapsed Time: 0
+Process 2 Elapsed Time: 0
+Process 3 Elapsed Time: 0
+Score of Pseudorandom Generator: 9580589171
+Score of Truly Random Generator: 24805088389
+Total Score: 34385677560
+Total Comparison: 42668474420
+Elapsed Time: 1363.3581183999995
+Process 0 Elapsed Time: 1362.3502892000006
+Process 1 Elapsed Time: 1324.3742063
+Process 2 Elapsed Time: 1345.5122137000008
+Process 3 Elapsed Time: 1332.7306116999998
+Score of Pseudorandom Generator: 9580589171
+Score of Truly Random Generator: 24805088389
+Total Score: 34385677560
+Total Comparison: 42668474420
+Elapsed Time: 1328.9553152000008
+Process 0 Elapsed Time: 1317.1690482999984
+Process 1 Elapsed Time: 1302.0873764999997
+Process 2 Elapsed Time: 1310.4305616000001
+Process 3 Elapsed Time: 1327.9826914999994
+Score of Pseudorandom Generator: 38321827210
+Score of Truly Random Generator: 99219545367
+Total Score: 137541372577
+Total Comparison: 170672512010
+Elapsed Time: 5160.9174281
+Process 0 Elapsed Time: 5147.5107011
+Process 1 Elapsed Time: 5160.0409683
+Process 2 Elapsed Time: 5129.7172381
+Process 3 Elapsed Time: 5120.4296837
