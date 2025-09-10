@@ -7,31 +7,32 @@ TotalComparison = 0
 Pdifferences = None
 with open("differencesP.txt", "r") as Pfile:
     Pdifferences = Pfile.readlines()
-    for i in range(184756):
+    for i in range(184756 * 5):
         Pdifferences[i] = int(Pdifferences[i].strip())
 
 Tdifferences = None
 with open("differencesT.txt", "r") as Tfile:
     Tdifferences = Tfile.readlines()
-    for i in range(184756):
+    for i in range(184756 * 5):
         Tdifferences[i] = int(Tdifferences[i].strip())
 
 sTime = time.perf_counter()
 
-for i in range(184756):
-    for j in range(184756):
-        if Tdifferences[i] < Pdifferences[j]:
-            scoreT += 1
-        elif Pdifferences[i] < Tdifferences[j]:
-            scoreP += 1
-        else:
-            TotalComparison += 1
-    if (i + 1) % 100 == 0:
-        tTime = time.perf_counter() - sTime
-        print(f"Finished {i + 1}/184756 Time: {tTime}")
+for a in range(5):
+    for i in range(184756 * a,184756 * (a + 1)):
+        for j in range(184756 * a,184756 * (a + 1)):
+            if Tdifferences[i] < Pdifferences[j]:
+                scoreT += 1
+            elif Pdifferences[i] < Tdifferences[j]:
+                scoreP += 1
+            else:
+                TotalComparison += 1
+        if (i + 1) % 100 == 0:
+            tTime = time.perf_counter() - sTime
+            print(f"Finished ({a}/5) {i + 1}/184756 Time: {tTime:.2}")
 
 tTime = time.perf_counter() - sTime
-print(f"Finished 184756/184756 Time: {tTime}")
+print(f"Finished (5/5) 184756/184756 Time: {tTime:.2}")
 
 TotalScore = scoreP + scoreT
 TotalComparison += TotalScore

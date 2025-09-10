@@ -5,7 +5,7 @@ with open("differencesT.txt", "w") as output: # open output file
             data = data.readlines() # read data file
             for i in range(1000): # remove \n at the end of each datum
                 data[i] = int(data[i].strip())
-            for i in range(184756): # parse through every combination
+            for i in range(184756 * 5): # parse through every combination
                 sum = [0,0,0,0,0,0,0,0,0,0] # sum of counts from 10 file (each combination contains 10 file)
                 line = lines[i].strip() # remove \n from combination
                 group = line.split(",") # split the combination to each file e.g. "1,2,3," (str) to [1,2,3,""] (list)
