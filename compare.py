@@ -29,7 +29,7 @@ def compare(offset):
             for a in range(5):
                 total_i = ((184756 * (a + 1)) - (184756 * a + offset) + 3) // 4  # total steps for this block
                 for idx, i in enumerate(range(184756 * a + offset, 184756 * (a + 1), 4)):
-                    for j in range(184756 * a + offset, 184756 * (a + 1)):
+                    for j in range(184756 * a, 184756 * (a + 1)):
                         if Tdifferences[i] < Pdifferences[j]:
                             scoreT += 1
                         elif Pdifferences[i] < Tdifferences[j]:
